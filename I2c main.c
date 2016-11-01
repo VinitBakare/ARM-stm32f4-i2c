@@ -2,7 +2,6 @@
 #define __I2C_MAIN_H
 
 
-
 #define GPIOB_PIN_6                      6
 #define GPIOB_PIN_9                      9
 #define I2C1_SCL_LINE                   GPIOB_PIN_6
