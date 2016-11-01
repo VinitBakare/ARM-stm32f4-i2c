@@ -400,7 +400,7 @@ void HAL_I2C_ER_IRQHandler(i2c_handle_t *hi2c)
     else
     {
       hi2c->ErrorCode |= HAL_I2C_ERROR_AF;
-      /* Clear AF flag */
+      /* Clear AF flag  */
        hi2c->Instance->SR1 &= ~ (I2C_REG_SR1_AF_FAILURE_FLAG);
     }
   }
